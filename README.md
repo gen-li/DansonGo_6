@@ -25,7 +25,7 @@ The program is still at early stage and may contain many errors. Welcome to fork
 
 ## How to use 
 
-Step 1: Clone or fork the repo to your local.
+Step 1: Clone or fork the [repo](https://github.com/gen-li/DansonGo_6) to your local.
 
 Step 2: Open a new terminal at your local repo folder
 
