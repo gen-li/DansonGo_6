@@ -1,7 +1,7 @@
 # @Author: genli
 # @Date:   2020-01-13T12:10:59-05:00
 # @Last modified by:   genli
-# @Last modified time: 2020-01-13T23:46:10-05:00
+# @Last modified time: 2020-01-14T19:53:32-05:00
 
 
 import pandas as pd
@@ -53,7 +53,7 @@ class check_gradcafe:
 
             New post for """ + self.major + """ program comes out.
 
-            Institution: """ + inst_last + """, Program: """ + df["Program (Season)"][0]
+            Institution: """ + self.inst_last + """, Program: """ + df["Program (Season)"][0]
 
             with smtplib.SMTP_SSL(self.smtp_server, self.port, context=self.context) as server:
                 server.login(self.sender_email, self.password)
